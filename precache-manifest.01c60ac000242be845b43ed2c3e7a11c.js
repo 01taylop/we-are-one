@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "720717e96fcb6ebb25332ecea685910e",
+    "revision": "d3358c38158d4570359576bb8a222568",
     "url": "/we-are-one/index.html"
   },
   {
-    "revision": "a28690d23ab846e7ea95",
-    "url": "/we-are-one/static/css/main.5cfe42db.chunk.css"
+    "revision": "79685739c9211cccbe7b",
+    "url": "/we-are-one/static/css/main.9c5ebb42.chunk.css"
   },
   {
     "revision": "38cd6d3b1ad550aafef9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/we-are-one/static/js/2.cdc07180.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a28690d23ab846e7ea95",
-    "url": "/we-are-one/static/js/main.f83a045e.chunk.js"
+    "revision": "79685739c9211cccbe7b",
+    "url": "/we-are-one/static/js/main.e9f214a6.chunk.js"
   },
   {
     "revision": "9c6ee80bf276073a029c",
