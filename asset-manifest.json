@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/we-are-one/static/css/main.5cfe42db.chunk.css",
+    "main.js": "/we-are-one/static/js/main.98cec657.chunk.js",
+    "main.js.map": "/we-are-one/static/js/main.98cec657.chunk.js.map",
+    "runtime-main.js": "/we-are-one/static/js/runtime-main.64de7e68.js",
+    "runtime-main.js.map": "/we-are-one/static/js/runtime-main.64de7e68.js.map",
+    "static/js/2.cdc07180.chunk.js": "/we-are-one/static/js/2.cdc07180.chunk.js",
+    "static/js/2.cdc07180.chunk.js.map": "/we-are-one/static/js/2.cdc07180.chunk.js.map",
+    "index.html": "/we-are-one/index.html",
+    "precache-manifest.bd97c54246c6037c3f7079076d495d51.js": "/we-are-one/precache-manifest.bd97c54246c6037c3f7079076d495d51.js",
+    "service-worker.js": "/we-are-one/service-worker.js",
+    "static/css/main.5cfe42db.chunk.css.map": "/we-are-one/static/css/main.5cfe42db.chunk.css.map",
+    "static/js/2.cdc07180.chunk.js.LICENSE.txt": "/we-are-one/static/js/2.cdc07180.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/we-are-one/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64de7e68.js",
+    "static/js/2.cdc07180.chunk.js",
+    "static/css/main.5cfe42db.chunk.css",
+    "static/js/main.98cec657.chunk.js"
+  ]
+}
