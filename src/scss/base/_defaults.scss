@@ -1,0 +1,44 @@
+// Colours
+// Use suggestive names
+// --------------------------------------------------
+
+$colours: (
+  'text': #fff,
+  link: #61dafb,
+
+  background: #282c34,
+) !default;
+
+@function get-colour($key) {
+  @return map-get($colours, $key);
+}
+
+// Palettes
+// Use as little as possible because the tech debt grows fast, use $colours with suggestive names where possible.
+// --------------------------------------------------
+
+$palettes: (
+  'black': (
+    base: #000,
+  ),
+  'gray': (
+    dark: #303030,
+    base: #808080,
+    light: #c0c0c0,
+  ),
+  'white': (
+    base: #fff,
+  )
+) !default;
+
+@function get-palette($scheme, $tone: base) {
+  @return map-deep-get($palettes, $scheme, $tone);
+}
+
+// Fonts
+// --------------------------------------------------
+
+$font-size: 16px !default;
+$font-weight: 400 !default;
+$font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !default;
+$line-height: 1.428571429 !default;

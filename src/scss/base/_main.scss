@@ -1,0 +1,49 @@
+// sass-lint:disable no-color-literals, no-disallowed-properties
+
+* {
+  box-sizing: inherit;
+  &::before, &::after {
+    box-sizing: inherit;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-width: 320px;
+  background-color: get-colour('background');
+  color: get-colour('text');
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+p {
+  margin-bottom: 6px;
+  &:last-of-type {
+    margin-bottom: 16px;
+  }
+}
+
+a {
+  color: get-colour('link');
+}

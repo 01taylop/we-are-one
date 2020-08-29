@@ -1,0 +1,22 @@
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 40vmin;
+  margin-bottom: 20px;
+  pointer-events: none;
+  @media (prefers-reduced-motion: no-preference) {
+    @include logo-spin;
+  }
+}
+
+.app-header {
+  @include font-size-rem(22);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
