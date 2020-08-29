@@ -1,0 +1,7 @@
+ignores: [
+  "eslint-plugin-babel",
+  "eslint-plugin-react",
+  "eslint-plugin-import",
+  "eslint-plugin-wyze"
+]
+skip-missing: true

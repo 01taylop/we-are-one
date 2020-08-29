@@ -6,6 +6,8 @@
 
 `yarn test` - Launches the test runner in the interactive watch mode.
 
+`yarn lint` - Run eslint and sass-lint checks.
+
 `yarn build` - Builds the app for production to the `build` folder.
 
 ## Learn More
