@@ -1,0 +1,4 @@
+@function font-size-rem($font-size) {
+  $rem-size: $font-size / 16px;
+  @return #{$rem-size}rem;
+}
